@@ -1,0 +1,174 @@
+body {
+  font-family: "Helvetica";
+  background-image: url(https://kurshub.ru/wp-content/uploads/2024/07/rabochee-mesto-qa-inzhenera.webp);
+  background-size: cover;
+  color: skyblue            ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin: 15px 0;
+}
+
+.header__avatar {
+  border-radius: 50%;
+}
+
+.header__DnMbHwOPQrk {
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+}
+
+.header__DnMbHwOPQrk:hover {
+  border: 3px solid #FFD700;
+}
+
+.header__title {
+  margin: 15px 0 10px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+  background: #1D1D1F;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.header__subtitle {
+  color: #000000 ;
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 0;
+  padding: 5px;
+  background: gainsboro;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 10px;
+}
+
+.links__header {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+  background: black ;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.links__container {
+  background-color: #fff;
+  list-style-type: none;
+  border: 1px solid hsla(210, 18%, 87%, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+  color: #57606a;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+  width: 280px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #0969da;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  margin-top: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #fff;
+  border: 1px solid rgba(27, 31, 36, 0.15);
+  border-radius: 5px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #0969da;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #0969da;
+  color: #fff;
+  box-shadow: 0 1px 0 rgba(27, 31, 36, 0.1);
+}
+
+/* Добавляем стиль для кнопки "Скачать резюме" */
+.download-resume {
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 320px;
+  background: #007AFF; /* Синий акцентный цвет Apple */
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #FFFFFF; /* Белый текст */
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для глубины */
+  transition: background-color 0.3s ease;
+}
+
+.download-resume:hover {
+  background-color: #0066CC; /* Темно-синий при наведении */
+}
+
+/* Иконка для кнопки (используем Font Awesome) */
+.download-resume i {
+  margin-right: 10px;
+  font-size: 18px;
+}
